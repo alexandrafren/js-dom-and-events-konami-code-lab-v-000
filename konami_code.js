@@ -13,3 +13,5 @@ function init(e) {
     index = 0;
   }
 }
+
+document.addEventListener('keydown', init)
