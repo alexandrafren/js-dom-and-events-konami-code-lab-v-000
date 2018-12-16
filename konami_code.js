@@ -13,5 +13,3 @@ function init(e) {
     index = 0;
   }
 }
-
-body.addListenerEvent('keydown', init);
