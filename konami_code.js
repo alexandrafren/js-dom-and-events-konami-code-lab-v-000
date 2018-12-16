@@ -15,5 +15,3 @@ function init() {
   }
  })
 }
-
-document.addEventListener('keydown', init);
