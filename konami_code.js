@@ -3,7 +3,7 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
   document.addEvenetListener('keydown', function (e) {
-  const key = parseInt(e.which || e.detail);
+  const key = parseInt(e.detail || e.which);
   if (key === code[index]){
     index++;
     if (index === code.length) {
